@@ -13,34 +13,34 @@ import UIKit
 
 extension UIView{
     
-    var origin:CGPoint{
+   public var origin:CGPoint{
         return self.frame.origin
     }
     
-    var size:CGSize{
+    public var size:CGSize{
         return self.frame.size
     }
     
     //MARK: - 各个顶点坐标
-    var topLeft:CGPoint{
+    public var topLeft:CGPoint{
         return self.origin
     }
     
-    var topRight:CGPoint{
+   public var topRight:CGPoint{
         return CGPoint(x: self.frame.maxX, y: self.frame.minY)
     }
     
-    var bottomLeft:CGPoint{
+    public var bottomLeft:CGPoint{
         return CGPoint(x: self.frame.minX, y: self.frame.maxY)
     }
     
-    var bottomRight:CGPoint{
+   public var bottomRight:CGPoint{
         return CGPoint(x: self.frame.maxX, y: self.frame.maxY)
     }
     
     //MARK: - 上左下右的位置
     //上
-    var top:CGFloat{
+    public var top:CGFloat{
         get{
             return self.frame.origin.y
         }
@@ -52,7 +52,7 @@ extension UIView{
         }
     }
     //左
-    var left:CGFloat{
+    public var left:CGFloat{
         get{
             return self.frame.origin.x
         }
@@ -65,7 +65,7 @@ extension UIView{
     }
 
     //下
-    var bottom:CGFloat{
+   public var bottom:CGFloat{
         get{
             return self.frame.maxY
         }
@@ -79,7 +79,7 @@ extension UIView{
 
     
     //右
-    var right:CGFloat{
+    public var right:CGFloat{
         get{
             return self.frame.maxX
         }
@@ -93,7 +93,7 @@ extension UIView{
 
 
     //MARK: - 宽和高的获取与设置
-    var height:CGFloat{
+   public var height:CGFloat{
         get{
             return self.frame.size.height
         }
@@ -104,7 +104,7 @@ extension UIView{
         }
     }
     
-    var width:CGFloat{
+    public var width:CGFloat{
         get{
             return self.frame.size.width
         }
