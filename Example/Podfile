@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZSSwiftCommon_Example' do
+  pod 'ZSSwiftCommon', :path => '../'
+
+  target 'ZSSwiftCommon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
