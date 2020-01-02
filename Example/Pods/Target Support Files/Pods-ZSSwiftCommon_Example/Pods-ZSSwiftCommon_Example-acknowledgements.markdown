@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## ZSSwiftCommon
 
-Copyright (c) 2020 DreamcoffeeZS <zhoushuai@micous.com>
+Copyright (c) 2020 DreamcoffeeZS <dreamcoffeezs@163com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

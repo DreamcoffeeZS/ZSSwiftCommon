@@ -22,7 +22,7 @@ pod 'ZSSwiftCommon'
 
 ## Author
 
-DreamcoffeeZS, zhoushuai@micous.com
+DreamcoffeeZS, dreamcoffeezs@163com
 
 ## License
 
