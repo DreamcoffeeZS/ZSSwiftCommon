@@ -1,0 +1,6 @@
+framework module ZSSwiftCommon {
+  umbrella header "ZSSwiftCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

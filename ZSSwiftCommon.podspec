@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZSSwiftCommon'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZSSwiftCommon.'
+  s.summary          = 'Swift工程Common组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "Common组件包含创建工程所需的各种参数、字符串、颜色处理等工具类"
 
   s.homepage         = 'https://github.com/DreamcoffeeZS/ZSSwiftCommon'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,7 +28,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZSSwiftCommon/Classes/**/*'
+  #s.source_files = 'ZSSwiftCommon/Classes/**/*'
+  
+  s.subspec 'Params' do |ss|
+    ss.source_files = 'ZSSwiftCommon/Params/**/*'
+  end
+  
+  s.subspec 'Extension' do |ss|
+     ss.source_files = 'ZSSwiftCommon/Extension/**/*'
+   end
+
   
   # s.resource_bundles = {
   #   'ZSSwiftCommon' => ['ZSSwiftCommon/Assets/*.png']

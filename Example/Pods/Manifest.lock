@@ -1,0 +1,20 @@
+PODS:
+  - ZSSwiftCommon (0.1.0):
+    - ZSSwiftCommon/Extension (= 0.1.0)
+    - ZSSwiftCommon/Params (= 0.1.0)
+  - ZSSwiftCommon/Extension (0.1.0)
+  - ZSSwiftCommon/Params (0.1.0)
+
+DEPENDENCIES:
+  - ZSSwiftCommon (from `../`)
+
+EXTERNAL SOURCES:
+  ZSSwiftCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZSSwiftCommon: 1315c7fbedf820a41d2ba42d8c97f173c32b4f52
+
+PODFILE CHECKSUM: 157df08d926bd03c3db99bbfc229a6f303fd105a
+
+COCOAPODS: 1.8.4
