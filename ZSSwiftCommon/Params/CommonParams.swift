@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import UIKit
 //MARK: - 布局参数
 public let kISIphoneSE = (UIScreen.main.bounds.size.width == 320.0)
 
