@@ -18,12 +18,11 @@ extension UIColor{
         }
         
         if cString.hasPrefix("0X") {
-            cString = cString.substring(from: cString.index(cString.startIndex, offsetBy: 2))
+            cString = String(cString[cString.index(cString.startIndex, offsetBy: 2)...])
         }
         
         if cString.hasPrefix("#") {
-//            cString = cString.substring(from: cString.index(cString.startIndex, offsetBy: 1))
-            cString = cString.substring(from: cString.index(cString.startIndex, offsetBy: 1))
+            cString = String(cString[cString.index(cString.startIndex, offsetBy: 1)...])
 
         }
         

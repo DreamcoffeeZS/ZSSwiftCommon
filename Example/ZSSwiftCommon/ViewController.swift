@@ -13,7 +13,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = ZSColor7C63C4
+
+        let view = UIView(frame: CGRect.zero)
+        view.backgroundColor = ZSColor7C63C4
+        self.view.addSubview(view)
+        
+        view.width = 200
+        view.height = 200
+        view.centerX = kDeviceWidth / 2
+        view.centerY = kDeviceHeight / 2
 
     }
 

@@ -1,20 +1,27 @@
 PODS:
-  - ZSSwiftCommon (0.1.1):
-    - ZSSwiftCommon/Extension (= 0.1.1)
-    - ZSSwiftCommon/Params (= 0.1.1)
-  - ZSSwiftCommon/Extension (0.1.1)
-  - ZSSwiftCommon/Params (0.1.1)
+  - SwiftLint (0.38.0)
+  - ZSSwiftCommon (1.0.1):
+    - ZSSwiftCommon/Extension (= 1.0.1)
+    - ZSSwiftCommon/Params (= 1.0.1)
+  - ZSSwiftCommon/Extension (1.0.1)
+  - ZSSwiftCommon/Params (1.0.1)
 
 DEPENDENCIES:
+  - SwiftLint
   - ZSSwiftCommon (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
 
 EXTERNAL SOURCES:
   ZSSwiftCommon:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZSSwiftCommon: 223de501b9dfc3b3a6750819b48f18b8b70367b8
+  SwiftLint: 4105f061f9812b214568b736dab580ab2c73a582
+  ZSSwiftCommon: 28dda0767bb4b37c3b2cd24164d398bc99f41a77
 
-PODFILE CHECKSUM: 157df08d926bd03c3db99bbfc229a6f303fd105a
+PODFILE CHECKSUM: f3317d17226f88cfa0263834dcaee951300de5dc
 
 COCOAPODS: 1.8.4
